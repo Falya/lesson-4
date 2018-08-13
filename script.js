@@ -20,6 +20,7 @@ function 	start() {
 }
 
 // start();
+
 let mainList = {
 		budget: yourBudget,
 		shop: shopName,
@@ -96,7 +97,7 @@ let mainList = {
 };
 
 // mainList.joinEmployers();
-// mainList.chooseGoods();
+mainList.chooseGoods();
 mainList.chooseShopItems();
 // mainList.discountFunc(54);
 // mainList.workTime(21);
